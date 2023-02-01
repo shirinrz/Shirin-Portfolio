@@ -1,0 +1,11 @@
+/*font-family: 'Abril Fatface', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif; */
+h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+}
