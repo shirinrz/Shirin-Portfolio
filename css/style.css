@@ -55,7 +55,7 @@ p {
 .btn-branding {
   background-color: var(--color-btn);
   border-radius: 4px;
-  color: var(--color-secondary);
+  color: white;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
@@ -104,5 +104,10 @@ p {
     font-size: 40px;
     color: var(--color-three);
     line-height: 2;
+  }
+  .btn-branding-outline {
+    background-color: var(--color-btn);
+    border-radius: 4px;
+    color: white;
   }
 }
