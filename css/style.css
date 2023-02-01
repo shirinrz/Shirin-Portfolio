@@ -40,7 +40,7 @@ p {
   font-weight: bold;
 }
 .hand {
-  color: var(--color-three);
+  color: var(--color-secondary);
 }
 .hero h1 {
   font-size: 95px;
