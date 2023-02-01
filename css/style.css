@@ -1,11 +1,59 @@
 /*font-family: 'Abril Fatface', cursive;
 font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif; */
-h1 {
+
+:root {
+  --color-btn: #7fbdaa;
+  --color-primary: #665b6b;
+  --color-three: #7287b5;
+  --color-heading: #b1abce;
+  --color-secondary: #ddccdb;
+  --color-background: #f3e8dc;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Playfair Display", serif;
   font-size: 50px;
 }
 
 p {
   font-family: "Poppins", sans-serif;
+}
+.hero {
+  background-color: var(--color-primary);
+  margin: 0;
+  padding: 150px 35px;
+}
+.hero p {
+  font-size: 36px;
+  color: var(--color-heading);
+  font-weight: bold;
+}
+.hand {
+  color: var(--color-three);
+}
+.hero h1 {
+  font-size: 95px;
+  color: var(--color-secondary);
+  line-height: 1.5;
+}
+.hero h3 {
+  font-size: 26px;
+  color: var(--color-heading);
+  line-height: 1.5;
+}
+.btn-branding {
+  background-color: var(--color-btn);
+  border-radius: 4px;
+  color: var(--color-secondary);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
 }
