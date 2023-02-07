@@ -63,6 +63,10 @@ p {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
 }
+.btn-branding:hover {
+  border-color: var(--color-btn);
+  color: var(--color-btn);
+}
 .pic {
   padding: 40px;
   background-color: var(--color-background);
@@ -84,6 +88,28 @@ p {
 .description {
   padding: 100px 55px;
 }
+.about-shirin {
+  background-color: var(--color-primary);
+  margin: 0;
+  padding: 150px 35px;
+}
+.about-description h1 {
+  font-size: 65px;
+  line-height: 1.5;
+  color: var(--color-heading);
+}
+.about-description h2 {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: var(--color-btn);
+}
+.about-description {
+  margin: 30px;
+}
+.about-description p {
+  color: var(--color-secondary);
+}
 
 @media (max-width: 900px) {
   body {
@@ -97,7 +123,15 @@ p {
     padding: 0;
     margin: 0;
   }
+  .about-description {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
   .hero h1 {
+    font-size: 50px;
+  }
+  .about-description h1 {
     font-size: 50px;
   }
   h2 {
