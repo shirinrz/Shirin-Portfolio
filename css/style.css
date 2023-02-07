@@ -111,6 +111,15 @@ p {
 .about-description p {
   color: var(--color-secondary);
 }
+.work-name {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  opacity: 70%;
+}
+.work-pic {
+  padding: 80px 50px;
+  background-color: var(--color-background);
+}
 
 @media (max-width: 900px) {
   body {
@@ -144,5 +153,8 @@ p {
     background-color: var(--color-btn);
     border-radius: 4px;
     color: white;
+  }
+  .work-pic {
+    border: 1px solid var(--color-heading);
   }
 }
