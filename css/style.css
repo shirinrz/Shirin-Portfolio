@@ -32,7 +32,7 @@ p {
 .hero {
   background-color: var(--color-primary);
   margin: 0;
-  padding: 150px 35px;
+  padding: 120px 35px;
 }
 .hero p {
   font-size: 36px;
@@ -62,6 +62,7 @@ p {
   text-decoration: none;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
+  transition: all 100ms ease-in-out;
 }
 .btn-branding:hover {
   border-color: var(--color-btn);
@@ -226,13 +227,13 @@ nav i.logo {
   .contact {
     padding: 80px 25px;
   }
-  nav i.logo {
-    font-size: 25px;
+  nav li.logo {
+    font-size: 20px;
     margin-top: 5px;
   }
-  nav i {
-    font-size: 10px;
-    line-height: 10px;
+  nav li {
+    font-size: 13px;
+    line-height: 15px;
   }
   .contact-box h4 {
     font-size: 30px;

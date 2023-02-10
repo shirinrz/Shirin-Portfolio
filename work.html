@@ -2,6 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="shirin Razi works and projects as Front-end developer"
+    />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
@@ -27,9 +31,26 @@
       crossorigin="anonymous"
     ></script>
 
-    <title>Shirin Razi</title>
+    <title>Shirin Razi - works</title>
   </head>
   <body>
+    <nav>
+      <div class="container d-flex justify-content-between">
+        <a href="/" title="homepage"
+          ><i class="fa-solid fa-laptop-code logo"></i
+        ></a>
+        <ul>
+          <li><a href="/" title="homepage">Home</a></li>
+          <li><a href="/about.html" title="about shirin Razi">About</a></li>
+          <li>
+            <a href="/work.html" title="shirin Razi projects" class="active"
+              >Works</a
+            >
+          </li>
+          <li><a href="/contact.html" title="Contact Shirin">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
     <div class="container mt-5">
       <h1 class="text-center mt-5">
         Take a look at what I have been working at!
@@ -53,7 +74,7 @@
           <div class="work-pic">
             <img
               src="/images/weather.png"
-              alt="pirouz project"
+              alt="Weather project"
               class="img-fluid"
             />
           </div>
@@ -62,5 +83,33 @@
         </div>
       </div>
     </div>
+    <footer>
+      <div class="contact-box m-5 text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h4>Work Inquiry</h4>
+              <p class="opacity-75">Let`s Work together!</p>
+            </div>
+            <div class="col-md-6 mt-3">
+              <a href="/contact.html" class="btn btn-branding shadow"
+                >Contact Me</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact-icon">
+        <a
+          href="https://github.com/shirinrz"
+          target="_blank"
+          title="shirin github profile"
+          ><i class="fa-brands fa-github contact-logo"></i
+        ></a>
+        <a href="mailto:shirinrazi68@gmail.com"
+          ><i class="fa-solid fa-envelope-circle-check contact-logo"></i
+        ></a>
+      </div>
+    </footer>
   </body>
 </html>
