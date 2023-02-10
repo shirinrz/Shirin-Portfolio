@@ -134,9 +134,9 @@ p {
   font-size: 40px;
   color: var(--color-btn);
 }
-.contact-space {
+/*.contact-space {
   padding: 0 300px 0 300px;
-}
+}*/
 @media (max-width: 900px) {
   body {
     background-color: var(--color-background);
@@ -172,5 +172,8 @@ p {
   }
   .work-pic {
     border: 1px solid var(--color-heading);
+  }
+  .contact {
+    padding: 80px 25px;
   }
 }
