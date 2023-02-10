@@ -131,6 +131,38 @@ p {
   text-decoration: none;
 }
 .contact-logo {
+  font-size: 50px;
+  color: var(--color-btn);
+}
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  font-size: 20px;
+  list-style: none;
+  display: inline;
+  line-height: 40px;
+  margin-left: 12px;
+}
+nav a {
+  color: var(--color-primary);
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+nav a.active {
+  color: var(--color-three);
+  font-weight: bold;
+}
+nav a:hover {
+  color: var(--color-three);
+  transition: all 100ms ease-in-out;
+}
+
+nav i.logo {
   font-size: 40px;
   color: var(--color-btn);
 }
@@ -175,5 +207,13 @@ p {
   }
   .contact {
     padding: 80px 25px;
+  }
+  nav i.logo {
+    font-size: 25px;
+    margin-top: 5px;
+  }
+  nav i {
+    font-size: 10px;
+    line-height: 10px;
   }
 }
