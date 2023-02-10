@@ -120,6 +120,24 @@ p {
   padding: 80px 50px;
   background-color: var(--color-background);
 }
+.contact-box {
+  padding: 30px 10px;
+  background-color: var(--color-primary);
+  color: var(--color-heading);
+  border-radius: 5px;
+}
+footer {
+  margin: 80px 0;
+}
+.contact-box h4 {
+  font-size: 45px;
+}
+.contact-icon {
+  text-align: center;
+}
+.contact-icon a {
+  margin: 20px;
+}
 
 .contact {
   background-color: var(--color-primary);
@@ -215,5 +233,8 @@ nav i.logo {
   nav i {
     font-size: 10px;
     line-height: 10px;
+  }
+  .contact-box h4 {
+    font-size: 30px;
   }
 }
