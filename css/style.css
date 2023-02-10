@@ -120,6 +120,7 @@ p {
   padding: 80px 50px;
   background-color: var(--color-background);
 }
+
 .contact {
   background-color: var(--color-primary);
   margin: 100px 0px 0px 0px;
@@ -132,6 +133,9 @@ p {
 .contact-logo {
   font-size: 40px;
   color: var(--color-btn);
+}
+.contact-space {
+  padding: 0 300px 0 300px;
 }
 @media (max-width: 900px) {
   body {
