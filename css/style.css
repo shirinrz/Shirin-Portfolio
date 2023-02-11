@@ -121,15 +121,16 @@ p {
   padding: 80px 50px;
   background-color: var(--color-background);
 }
+footer {
+  margin: 150px 0;
+}
 .contact-box {
   padding: 30px 10px;
   background-color: var(--color-primary);
   color: var(--color-heading);
   border-radius: 5px;
 }
-footer {
-  margin: 80px 0;
-}
+
 .contact-box h4 {
   font-size: 45px;
 }
