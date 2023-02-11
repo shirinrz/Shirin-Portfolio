@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: #87512f;
+      }
+      div {
+        display: block;
+        padding: 20px;
+        margin: 0 auto;
+      }
+      h1 {
+        text-align: center;
+        color: #bf804a;
+        font-size: 50px;
+        font-weight: 1000;
+        margin: 0 auto;
+      }
+      h2 {
+        text-align: center;
+        color: #d39f70;
+        font-size: 30px;
+        border-width: 2px;
+        border: 2px solid #bf804a;
+        padding: 20px;
+        border-radius: 3px;
+        margin: 0 auto;
+      }
+
+      img {
+        display: block;
+        margin: 0 auto;
+        border-radius: 10px;
+        max-width: 90%;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        width: 600px;
+      }
+      p {
+        display: block;
+        text-align: justify;
+        text-justify: newspaper;
+        margin: 20px;
+        line-height: 1.5;
+      }
+      button {
+        display: block;
+        margin: 0 auto;
+        background: #bf804a;
+        color: white;
+        font-size: 25px;
+        border: none;
+        border-radius: 5px;
+        padding: 20px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        transition: all 200ms ease-in-out;
+        box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.2);
+      }
+      button:hover {
+        background: white;
+        opacity: 0.9;
+        color: #bf804a;
+        cursor: pointer;
+      }
+      .info {
+        text-decoration: none;
+        color: #bf804a;
+        font-size: 14px;
+      }
+      .info:hover {
+        cursor: pointer;
+        text-decoration: underline;
+      }
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: #f8edd1;
+      }
+      .footer {
+        text-align: center;
+        color: #d39f70;
+        font-size: 10px;
+      }
+      .header {
+        color: #541904;
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>PIROUZ</h1>
+      <h2>Last Iranian Cheetah Cub</h2>
+
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/052/043/original/piroz.jpg?1667810964"
+        alt="Pirouz Iranian cheetah cub"
+      />
+      <p>
+        <strong
+          ><em
+            ><span class="header">
+              lone surviving Asiatic cheetah cub, named “Pirouz” meaning
+              “victorious” in Farsi, for the first time touched the soil outside
+              and started playing.</span
+            ></em
+          ></strong
+        >
+        <br />
+        An endangered female cheetah, called “Iran”, gave birth to three cubs in
+        captivity, for the first time for the subspecies. The cubs were born at
+        the Touran Wildlife Refuge in Semnan province, on May 1st, by cesarean
+        section. However, one of the cubs who were weaker lost his life in the
+        early days, and after a while, the second cub also died due to improper
+        care.<br />
+        The lone surviving cub seems to be healthy and agile. The Department of
+        Environment (DOE) was preparing an outdoor site to familiarize "Pirouz"
+        with sunlight and outdoor air. Then move him to his main habitat in
+        Touran Wildlife Refuge in early November.
+      </p>
+      <p>
+        <a
+          href="https://www.tehrantimes.com/news/475682/Pirouz-paws-touched-the-soil-for-first-time"
+          target="_blank"
+        >
+          <span class="info">More Information about Pirouz</span>
+        </a>
+      </p>
+      <button>Help Pirouz</button>
+      <p class="footer">written by <strong> Shirin Razi</strong></p>
+    </div>
+    <script>
+      function changeH2(newHeading2) {
+        let h2 = document.querySelector("h2");
+        h2.innerHTML = newHeading2;
+      }
+      function help() {
+        let name = prompt("What is your name?");
+        let age = prompt("How old are you?");
+        let love = prompt("Do you love animals? yes or no");
+        love = love.toLowerCase().trim();
+
+        if (age >= 16 && love === "yes") {
+          changeH2(`Hi ${name} 😊, We Really Appreciate your Support🐾`);
+        } else {
+          changeH2(` Hi ${name}!, Thank You for Visiting Us 😿`);
+        }
+      }
+      let helpButton = document.querySelector("button");
+      helpButton.addEventListener("click", help);
+    </script>
+  </body>
+</html>
