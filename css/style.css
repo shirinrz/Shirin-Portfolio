@@ -73,6 +73,7 @@ p {
   padding: 40px;
   background-color: var(--color-background);
 }
+
 .btn-branding-outline {
   color: var(--color-btn);
   border-radius: 4px;
@@ -120,6 +121,12 @@ p {
 .work-pic {
   padding: 80px 50px;
   background-color: var(--color-background);
+}
+.work-pic img.all {
+  width: 400px;
+  height: 270px !important;
+  display: block;
+  margin: 0 auto;
 }
 footer {
   margin: 150px 0;
